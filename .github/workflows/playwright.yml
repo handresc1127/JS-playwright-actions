@@ -9,11 +9,11 @@ on:
     - cron: '0 23 * * *'
 
 jobs:
-  environments:
-    name: dev
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    environment:
+      name: dev
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
