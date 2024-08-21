@@ -1,5 +1,7 @@
 name: Playwright Tests
 on:
+  repository_dispatch:
+    types: api-build
   workflow_dispatch:
   push:
     branches: [ main, master ]
