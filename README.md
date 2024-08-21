@@ -11,4 +11,8 @@ Creation Steps
     `npx playwright test --trace on` to record every step
     `USER_NAME=me PASSWORD=secret npx playwright test` to run with secrets
 4. `npx playwright show-report` to see the HTML test report
-5. `npx playwright codegen https://www.laworks.net/wotc/MainMenu.aspx` record url
+5. `npx playwright codegen https://www.laworks.net/wotc/MainMenu.aspx` record URL
+
+
+# Generate Token
+https://github.com/settings/tokens
